@@ -1,0 +1,15 @@
+<xs:element   name="personnes">
+    <xs:complexetype >
+        <xs:sequence>
+            <xs:element name="personne" >
+                <xs:complexetype>
+                    <xs:sequence >
+                        <xs:element name="titre"  type="xs:String" />
+                        <xs:element  name="auteur"  type="xsString" />
+                        <xs:element name="prix" type="xs:float" /> 
+                    </xs:sequence>
+                </xs:complexetype>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexetype>
+</xs:element>

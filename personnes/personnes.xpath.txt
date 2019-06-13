@@ -1,0 +1,9 @@
+
+ #votre premier personne 
+ //personne[1]
+ #votre  nom de premier personne
+ //personne[1]/nom
+ #votre nom 2 eme personne
+ //personne[2]/nom
+ # afficher nom votre book ilya le prix superieur de 50
+ /personnes/personne[prix > 50]/nom

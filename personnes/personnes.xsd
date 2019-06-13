@@ -1,0 +1,15 @@
+<xs:element name=""personnes >
+    <xs:complexetype >
+        <xs:sequence >
+            <xs:element  name="personne" >
+                <xs:complexetype >
+                    <xs:sequence>
+                        <xs:element name="nom"  type="xs:String" />
+                        <xs:element name="prenom"  type="xs:String" /> 
+                        <xs:element name="age"  type="xs:Int32" /> 
+                    </xs:sequence>
+                </xs:complexetype>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexetype>
+</xs:element>
